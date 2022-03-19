@@ -1,0 +1,11 @@
+{
+  "name": "rn-with-ios-swift",
+  "version": "0.0.1",
+  "description": "Integration example of React Native on an existing iOS Swift app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Ramirez <iramirezc@live.com.mx>",
+  "license": "ISC"
+}
