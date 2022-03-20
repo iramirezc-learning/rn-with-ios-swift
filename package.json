@@ -4,6 +4,8 @@
   "description": "Integration example of React Native on an existing iOS Swift app.",
   "main": "index.js",
   "scripts": {
+    "start": "react-native start",
+    "ios": "react-native run-ios",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Isaac Ramirez <iramirezc@live.com.mx>",
