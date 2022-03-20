@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6887EEEE8FF88007D768B1F9 /* libPods-LoveCoffee-LoveCoffeeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 106A3C92667635742F7DF711 /* libPods-LoveCoffee-LoveCoffeeTests.a */; };
 		CAD95AE527E71935008F1DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD95AE427E71935008F1DBF /* AppDelegate.swift */; };
 		CAD95AE727E71935008F1DBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD95AE627E71935008F1DBF /* SceneDelegate.swift */; };
 		CAD95AE927E71935008F1DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD95AE827E71935008F1DBF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		CAD95AFC27E71938008F1DBF /* LoveCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD95AFB27E71938008F1DBF /* LoveCoffeeTests.swift */; };
 		CAD95B0627E71938008F1DBF /* LoveCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD95B0527E71938008F1DBF /* LoveCoffeeUITests.swift */; };
 		CAD95B0827E71938008F1DBF /* LoveCoffeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD95B0727E71938008F1DBF /* LoveCoffeeUITestsLaunchTests.swift */; };
+		CE4AA86F7F7B70D9604ED538 /* libPods-LoveCoffee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEF3E31618DAF056B97FBD0 /* libPods-LoveCoffee.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106A3C92667635742F7DF711 /* libPods-LoveCoffee-LoveCoffeeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveCoffee-LoveCoffeeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34357BF775CCD30071732583 /* Pods-LoveCoffee-LoveCoffeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveCoffee-LoveCoffeeTests.debug.xcconfig"; path = "Target Support Files/Pods-LoveCoffee-LoveCoffeeTests/Pods-LoveCoffee-LoveCoffeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9525252A289EA48817CD2F85 /* Pods-LoveCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveCoffee.release.xcconfig"; path = "Target Support Files/Pods-LoveCoffee/Pods-LoveCoffee.release.xcconfig"; sourceTree = "<group>"; };
+		9C222838CFA44DC49451867D /* Pods-LoveCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveCoffee.debug.xcconfig"; path = "Target Support Files/Pods-LoveCoffee/Pods-LoveCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		9FEF3E31618DAF056B97FBD0 /* libPods-LoveCoffee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveCoffee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BB8B5D7D61821D493729D4 /* Pods-LoveCoffee-LoveCoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveCoffee-LoveCoffeeTests.release.xcconfig"; path = "Target Support Files/Pods-LoveCoffee-LoveCoffeeTests/Pods-LoveCoffee-LoveCoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
 		CAD95AE127E71935008F1DBF /* LoveCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD95AE427E71935008F1DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD95AE627E71935008F1DBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4AA86F7F7B70D9604ED538 /* libPods-LoveCoffee.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6887EEEE8FF88007D768B1F9 /* libPods-LoveCoffee-LoveCoffeeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7D8B0AEFF800BF20CC3703A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FEF3E31618DAF056B97FBD0 /* libPods-LoveCoffee.a */,
+				106A3C92667635742F7DF711 /* libPods-LoveCoffee-LoveCoffeeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80E3B70E430F0DAF8070A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C222838CFA44DC49451867D /* Pods-LoveCoffee.debug.xcconfig */,
+				9525252A289EA48817CD2F85 /* Pods-LoveCoffee.release.xcconfig */,
+				34357BF775CCD30071732583 /* Pods-LoveCoffee-LoveCoffeeTests.debug.xcconfig */,
+				C0BB8B5D7D61821D493729D4 /* Pods-LoveCoffee-LoveCoffeeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CAD95AD827E71935008F1DBF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				CAD95AFA27E71938008F1DBF /* LoveCoffeeTests */,
 				CAD95B0427E71938008F1DBF /* LoveCoffeeUITests */,
 				CAD95AE227E71935008F1DBF /* Products */,
+				A80E3B70E430F0DAF8070A18 /* Pods */,
+				A7D8B0AEFF800BF20CC3703A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD95B0B27E71938008F1DBF /* Build configuration list for PBXNativeTarget "LoveCoffee" */;
 			buildPhases = (
+				8776EC267449B22FE815512C /* [CP] Check Pods Manifest.lock */,
 				CAD95ADD27E71935008F1DBF /* Sources */,
 				CAD95ADE27E71935008F1DBF /* Frameworks */,
 				CAD95ADF27E71935008F1DBF /* Resources */,
+				8D218C783734539095505DBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD95B0E27E71938008F1DBF /* Build configuration list for PBXNativeTarget "LoveCoffeeTests" */;
 			buildPhases = (
+				70CA1D0012629A4E911EA95D /* [CP] Check Pods Manifest.lock */,
 				CAD95AF327E71938008F1DBF /* Sources */,
 				CAD95AF427E71938008F1DBF /* Frameworks */,
 				CAD95AF527E71938008F1DBF /* Resources */,
+				52E07A76CDB27F325D873BBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +289,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52E07A76CDB27F325D873BBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveCoffee-LoveCoffeeTests/Pods-LoveCoffee-LoveCoffeeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveCoffee-LoveCoffeeTests/Pods-LoveCoffee-LoveCoffeeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveCoffee-LoveCoffeeTests/Pods-LoveCoffee-LoveCoffeeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70CA1D0012629A4E911EA95D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveCoffee-LoveCoffeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8776EC267449B22FE815512C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D218C783734539095505DBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveCoffee/Pods-LoveCoffee-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveCoffee/Pods-LoveCoffee-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveCoffee/Pods-LoveCoffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CAD95ADD27E71935008F1DBF /* Sources */ = {
@@ -353,6 +471,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -414,6 +533,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -434,6 +554,7 @@
 		};
 		CAD95B0C27E71938008F1DBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C222838CFA44DC49451867D /* Pods-LoveCoffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +583,7 @@
 		};
 		CAD95B0D27E71938008F1DBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9525252A289EA48817CD2F85 /* Pods-LoveCoffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +612,7 @@
 		};
 		CAD95B0F27E71938008F1DBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34357BF775CCD30071732583 /* Pods-LoveCoffee-LoveCoffeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +633,7 @@
 		};
 		CAD95B1027E71938008F1DBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BB8B5D7D61821D493729D4 /* Pods-LoveCoffee-LoveCoffeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
