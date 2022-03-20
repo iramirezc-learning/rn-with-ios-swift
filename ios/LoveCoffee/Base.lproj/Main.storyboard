@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,32 +12,44 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoveCoffee" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love Coffee ❤️☕️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ea-Br-2cs">
-                                <rect key="frame" x="104" y="328" width="206" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jj-ad-qM8">
-                                <rect key="frame" x="163" y="371" width="89" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Pícale"/>
-                                <connections>
-                                    <action selector="sayTQWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1M6-Xb-kf0"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="center" semanticContentAttribute="spatial" preservesSuperviewLayoutMargins="YES" axis="vertical" alignment="center" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-Gy-lhr">
+                                <rect key="frame" x="50" y="244" width="314" height="248.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love Coffee ❤️☕️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ea-Br-2cs">
+                                        <rect key="frame" x="71.666666666666686" y="0.0" width="171" height="26.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="center" verticalHuggingPriority="249" verticalCompressionResistancePriority="754" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jj-ad-qM8">
+                                        <rect key="frame" x="125.66666666666667" y="106.33333333333331" width="62.666666666666671" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Pícale"/>
+                                        <connections>
+                                            <action selector="sayTQWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1M6-Xb-kf0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lja-hZ-68R">
+                                        <rect key="frame" x="135" y="217.33333333333331" width="44" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="🎁"/>
+                                        <connections>
+                                            <action selector="showRNViewWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tz7-0d-0tc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="3Ea-Br-2cs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="2xc-3T-Joq"/>
-                            <constraint firstItem="3Ea-Br-2cs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="284" id="avS-Ob-cky"/>
-                            <constraint firstItem="3Ea-Br-2cs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wfZ-X4-Ghf"/>
+                            <constraint firstItem="xSy-Gy-lhr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4zX-xh-0ct"/>
+                            <constraint firstItem="xSy-Gy-lhr" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="MIG-Dx-PWq"/>
+                            <constraint firstItem="xSy-Gy-lhr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rFl-j4-yra"/>
                         </constraints>
                     </view>
                 </viewController>
