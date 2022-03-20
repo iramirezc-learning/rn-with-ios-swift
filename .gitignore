@@ -90,7 +90,13 @@ fastlane/test_output
 iOSInjectionProject/
 
 # React Native recommended
+# https://react-native-community.github.io/upgrade-helper/?from=0.52.2&to=0.67.4
+
 *.hprof
+*.keystore
+!debug.keystore
+
+# Bundle artifact
 *.jsbundle
 
 # ========== Node ==========
